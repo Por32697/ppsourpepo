@@ -1,0 +1,256 @@
+.screen {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.screen .overlap-group-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 609px;
+  height: 771.82px;
+}
+
+.screen .overlap-group {
+  position: relative;
+  width: 610px;
+  height: 772px;
+}
+
+.screen .rectangle {
+  width: 609px;
+  height: 772px;
+  top: 0;
+  background-color: #d1cae6;
+  transform: rotate(-0.03deg);
+  position: absolute;
+  left: 0;
+}
+
+.screen .div {
+  width: 610px;
+  height: 71px;
+  top: 701px;
+  background-color: #ad5691;
+  position: absolute;
+  left: 0;
+}
+
+.screen .rectangle-2 {
+  width: 609px;
+  height: 71px;
+  top: 0;
+  background-color: #ad5691;
+  position: absolute;
+  left: 0;
+}
+
+.screen .element {
+  position: absolute;
+  width: 222px;
+  height: 281px;
+  top: 245px;
+  left: 28px;
+}
+
+.screen .text-wrapper {
+  width: 260px;
+  top: 244px;
+  font-family: "Trirong-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 32px;
+  position: absolute;
+  left: 280px;
+  color: #58595b;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-2 {
+  width: 116px;
+  top: 330px;
+  font-family: "Trirong-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 22px;
+  position: absolute;
+  left: 280px;
+  color: #58595b;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .p {
+  width: 301px;
+  top: 373px;
+  font-family: "Trirong-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 17.3px;
+  position: absolute;
+  left: 280px;
+  color: #58595b;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-3 {
+  width: 296px;
+  top: 289px;
+  font-family: "Trirong-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 22px;
+  position: absolute;
+  left: 280px;
+  color: #58595b;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 6px;
+  left: 13px;
+  object-fit: cover;
+}
+/* Original CSS code should be injected here */
+
+/* Enhanced accessibility and semantic improvements */
+.screen {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.screen .overlap-group-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: min(609px, 100vw);
+  height: 771.82px;
+}
+
+.screen .overlap-group {
+  position: relative;
+  width: 610px;
+  height: 772px;
+}
+
+.screen .rectangle {
+  width: 609px;
+  height: 772px;
+  top: 0;
+  background-color: #d1cae6;
+  transform: rotate(-0.03deg);
+  position: absolute;
+  left: 0;
+}
+
+.screen .div {
+  width: 610px;
+  height: 71px;
+  top: 701px;
+  background-color: #ad5691;
+  position: absolute;
+  left: 0;
+}
+
+.screen .rectangle-2 {
+  width: 609px;
+  height: 71px;
+  top: 0;
+  background-color: #ad5691;
+  position: absolute;
+  left: 0;
+}
+
+.screen .element {
+  position: absolute;
+  width: 222px;
+  height: 281px;
+  top: 245px;
+  left: 28px;
+}
+
+.screen .text-wrapper {
+  width: 260px;
+  top: 244px;
+  font-family: "Trirong-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 32px;
+  position: absolute;
+  left: 280px;
+  color: #58595b;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-2 {
+  width: 116px;
+  top: 330px;
+  font-family: "Trirong-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 22px;
+  position: absolute;
+  left: 280px;
+  color: #58595b;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .p {
+  width: 301px;
+  top: 373px;
+  font-family: "Trirong-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 17.3px;
+  position: absolute;
+  left: 280px;
+  color: #58595b;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-3 {
+  width: 296px;
+  top: 289px;
+  font-family: "Trirong-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 22px;
+  position: absolute;
+  left: 280px;
+  color: #58595b;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 6px;
+  left: 13px;
+  object-fit: cover;
+}
+
+/* Focus styles for accessibility */
+.screen .element:focus,
+.screen .image:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+/* Responsive improvements */
+@media (max-width: 640px) {
+  .screen .overlap-group-wrapper {
+    width: 100vw;
+    max-width: 609px;
+  }
+}
